@@ -1,0 +1,116 @@
+header {
+    height: 100px;
+    overflow: hidden;
+    padding: 35px 0;
+    box-sizing: border-box;
+    background-image: url(../images/Banner.png); 
+}
+
+footer {
+    background-color: #3b3c42;
+}
+
+.middle {
+    margin-top: 55px;
+}
+
+.middle li {
+    width: 100%;
+}
+
+.middle li div {
+    float: right;
+    width: 60%;
+}
+
+.middle .sl-img {
+    display: inline-block;
+    width: 368px;
+    height: 202px;
+    float: none;
+    overflow: hidden;
+}
+
+.middle li span img {
+    width: 28px;
+    height: 28px;
+    margin-right: 15px;
+}
+
+.right div img {
+    width: 20px;
+    height: 20px;
+}
+
+.sl-img img {
+    transition: all 600ms;
+}
+
+.sl-img img:hover {
+    transform: scale(1.1);
+}
+
+.middle li img {
+    width: 368px;
+    height: 202px;
+}
+
+main>div>span {
+    display: block;
+    text-align: center;
+    font-family: FaunaOne;
+}
+
+.middle li {
+    width: 100%;
+    margin-bottom: 70px;
+}
+
+.middle li div {
+    height: 200px;
+    float: right;
+    box-sizing: border-box;
+}
+
+.middle li>div>span {
+    display: inline-block;
+    font-family: Playfair;
+    font-size: 20px;
+}
+
+.middle li>div>span:first-of-type,
+.time {
+    font-size: 14px;
+    font-family: FaunaOne;
+}
+
+.middle li>div>span:nth-child(2) {
+    display: block;
+    line-height: 28px;
+}
+
+.middle li>div>span:last-of-type i {
+    margin-right: 20px;
+    font-size: 28px;
+    color: #adadad;
+}
+
+.middle li>div>span:last-of-type {
+    margin-top: 30px;
+}
+
+.middle p {
+    font-family: FaunaOne;
+    width: 732px;
+    height: 40px;
+    line-height: 21px;
+    text-align: left;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 29px;
+}
+
+main a {
+    color: black;
+}

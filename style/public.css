@@ -1,0 +1,49 @@
+ul,li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.clear {
+    clear: both;
+    content: '';
+}
+
+.column {
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.box-center {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header-center {
+    width: 1900px;
+    margin: 0 auto;
+}
+
+body {
+    min-width: 1170px;
+}

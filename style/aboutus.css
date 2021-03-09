@@ -1,0 +1,144 @@
+header {
+    height: 100px;
+    overflow: hidden;
+    padding: 35px 0;
+    box-sizing: border-box;
+    background-image: url(../images/Banner.png); 
+}
+
+h2 {
+    font-size: 54px;
+    margin-bottom: 33px;
+}
+
+p {
+    width: 758px;
+    text-align: center;
+    font-size: 14px;
+    color: #53555c;
+    font-family: FaunaOne;
+}
+
+.top {
+    width: 100%;
+    border-bottom: 1px solid #dbd7d6;
+    padding-bottom: 180px;
+}
+
+.video {
+    width: 960px;
+    height: 455px;
+    /* background-color: yellowgreen; */
+    margin: 64px auto 0 auto;
+}
+
+.middle h2 {
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.a-img img {
+    width: 368px;
+    transition: all 600ms;
+}
+
+.middle .a-img {
+    width: 368px;
+    height: 172px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.a-img img:hover {
+    transform: scale(1.1);
+}
+
+.middle li {
+    width: 368px;
+}
+
+.middle li div {
+    height: 180px;
+    position: relative;
+    top: -4px;
+    /* background-color: yellowgreen; */
+    box-sizing: border-box;
+    padding: 40px 0 0 40px;
+    border: 1px solid rgba(199, 199, 199, 0.6);
+}
+
+.middle li div:nth-of-type(2) {
+    transition: all 600ms;
+}
+
+.middle li div:nth-of-type(2):hover {
+    background-color: #c5841e;
+}
+
+.middle span {
+    display: block;
+    font-family: Playfair;
+    font-size: 20px;
+}
+
+.middle p {
+    width: 296px;
+    height: 43px;
+    line-height: 21px;
+    text-align: left;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.middle ul,
+.bottom ul {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.bottom {
+    margin-top: 100px;
+    width: 100%;
+    background-color: #e2e8e5;
+    padding-top: 100px;
+}
+
+.bottom h2 {
+    font-size: 30px;
+}
+
+.bottom span {
+    display: block;
+    width: 222px;
+    font-size: 16px;
+    font-family: Playfair;
+    text-align: center;
+    margin: 21px auto 94px auto;
+}
+
+.b-img img {
+    width: 216px;
+    transition: all 600ms;
+}
+
+.b-img img:hover {
+    transform: scale(1.1);
+}
+
+.bottom .b-img {
+    width: 216px;
+    height: 216px;
+    border-radius: 20rem;
+    border: 6px solid white;
+    background-color: #a3beb0;
+    overflow: hidden;
+}
+
+.bottom li {
+    width: 216px;
+}
+
+footer {
+    background-color: #3b3c42;
+}
